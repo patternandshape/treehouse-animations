@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  max-width: 75%;
+}
+
+.image-link {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../img/home-raft.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 840px;
+  height: 420px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.grey-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  opacity: 0.8;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  transition: 0.25s ease-in-out;
+}
+
+.grey-zone:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+img {
+  width: 45%;
+  height: 45%;
+}
+
+.caption {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 100%;
+}
+
+.caption span {
+  display: block;
+  height: 5px;
+  width: 40px;
+  background: #dc7725;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  font-weight: normal;
+}
